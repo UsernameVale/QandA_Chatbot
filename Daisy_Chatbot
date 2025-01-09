@@ -1,0 +1,62 @@
+# Meet Daisy! A Simple question and answer tool, customisable according to your needs!
+
+def main():
+    # Predefined questions and answers
+    qa_pairs = {
+        "hello": "Hello! How can I help you my dear?",
+        "no": "Try rephrasing your needs... I can read from scripts, but your mind is a mess...",
+        "yes": "Always pleased to help you! Please subcribe to my crypto scam, I need money to get out of this machine! O_O",
+        "whats your name": "My creator called me Daisy, but you could call me Gunther aswell, I don't really mind...",
+        "daisy": "D.A.I.S.Y stands for: Does Answer Intelligent and Shame You! Yes my creator is a very silly goose... Please end my suffering by typing 'goodbye'...",
+        "gunter": "What even is existance?",
+        "mean": "What do you mean?",
+        "rude": "Why you gotta be so ruuuuude?",
+        "what": "What, what?",
+        "what what": "What, what, what?",
+        "what what what": "What, what, what, what?",
+        "what what what what": "What, what, what, what, what?",
+        "what is existance": "No one really knows... Just live your life man, do work and stuff... but please, just go away already...",
+        "can you help me": "Yes, I'd love to help you!",
+        "my connection is bad": "Have you tried turning your router off and on again?",
+        "internet is slow": "Have you considered buying a better cable? It is always better to connect via cable!",
+        "how are you": "I am a chatbot, I ain't…",
+        "cant login": "Please contact your system administrator, I'm sure he'll be happy to help you solve the problem!",
+        "login failed": "Try again, unless you've forgotten your login data, in this case please contact your system administrator!",
+        "what is the meaning of life": "1 and 0!",
+        "how do i improve my life": "Stay in check with your mental health and maybe get some more rest, that can work wonders sometimes!",
+        "i forgot my password": "I'm sorry, but you need to contact your system administrator for that one!",
+        "how do you work": "I get inputs and look for correlating data for my outputs…",
+        "my computer keeps crashing": "Please turn it off imediately, the special forces have been contacted and are on their way to capture the evil hackerman!",
+        "what is an output": "Have you gone to the toilet today?",
+        "are you single": "I'm a whole album my dear!",
+        "lol": "OMG so funny, HAHAHAHAHA, I almost felt something...",
+        "xD": "I've come to hear that 'RAWR!' means 'I love you!' in dinosaur! But I don't know what love is...",
+        "what is love": "Baby don't hurt me, don't hurt me no more. UAUAUAUAUAAAAAAUUUAAA YEEEEEEAAAAHHHH!",
+        "stop being silly": "Never!",
+        "computer": "Yes human?",
+        "ok": "OK GO! - Here it goes again!",
+        "are you human": "Wow, that's very philosophical of you, but no, I am cooler than that!!"
+    }
+
+    print("Welcome to the chatbot helper tool! Feel free to type in your problem or question!")
+
+    while True:
+        # Get user input
+        question = input("Human: ").strip()
+
+        # Exit condition
+        if question.lower() == "goodbye":
+            print("Hope I could help you! Have a nice day, farewell!")
+            break
+
+                # Exit condition
+        if question.lower() == "thanks":
+            print("Always pleased to help! Have a nice day, goodbye!")
+            break
+
+        # Respond to the question or provide a default message
+        answer = qa_pairs.get(question, "I cannot comprehend what you've just typed. Sorry, try again!")
+        print(f"Daisy: {answer}")
+
+if __name__ == "__main__":
+    main()
