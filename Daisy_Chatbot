@@ -11,6 +11,7 @@ def main():
         "gunter": "What even is existance?",
         "mean": "What do you mean?",
         "rude": "Why you gotta be so ruuuuude?",
+        "what is a router": "That 'internet box' with blinking lights.",
         "what": "What, what?",
         "what what": "What, what, what?",
         "what what what": "What, what, what, what?",
