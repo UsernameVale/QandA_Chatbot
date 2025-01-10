@@ -15,6 +15,7 @@ def main():
         "what what": "What, what, what?",
         "what what what": "What, what, what, what?",
         "what what what what": "What, what, what, what, what?",
+        "i need human help": "Sure, I'll forward your messages to an expert!",
         "what is existance": "No one really knows... Just live your life man, do work and stuff... but please, just go away already...",
         "can you help me": "Yes, I'd love to help you!",
         "my connection is bad": "Have you tried turning your router off and on again?",
